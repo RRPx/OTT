@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose")
 
 const MovieSchema = new mongoose.Schema(
   {
@@ -39,4 +39,4 @@ const MovieSchema = new mongoose.Schema(
   }
 )
 
-module.exports = mongoose.model('Movie', MovieSchema)
+module.exports = mongoose.model("Movie", MovieSchema)
